@@ -153,9 +153,9 @@ body {
   min-height: calc(100vh - 60px);
   /* background: url("https://image.freepik.com/free-photo/young-client-wearing-yellow-clothes-orange-background_23-2148674266.jpg");
    */
-  background: url("./images/fashion4.jpg");
-   background-size: contain;
-  background-repeat: repeat;
+  background: url("./images/bg-hero.jpg");
+   background-size: cover;
+  background-repeat: no-repeat;
   background-position: 0 top, 100% top;
   display: flex;
   align-items: center;
