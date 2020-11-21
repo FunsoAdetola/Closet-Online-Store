@@ -135,12 +135,12 @@ body {
 .cart-btn {
   position: relative;
   cursor: pointer;
-  top: 0.6rem;
+  top: 0.5rem;
 }
 .cart-items {
   position: relative;
   top: -32px;
-  right: -16px;
+  right: -18px;
   background: var(--primaryColor);
   padding: 1px 4px;
   border-radius: 30%;
