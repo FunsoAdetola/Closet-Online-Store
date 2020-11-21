@@ -139,16 +139,16 @@ body {
 }
 .cart-items {
   position: relative;
-  top: -29px;
-  right: -14px;
+  top: -32px;
+  right: -16px;
   background: var(--primaryColor);
-  padding: 1px 5px;
+  padding: 1px 4px;
   border-radius: 30%;
   color: var(--mainWhite);
   text-align: center;
   font-size: 10px;
-  width:11px;
-  height:12px;
+  max-width:1rem;
+  /* height:12px; */
 }
 /* --------------- End of Navbar ---------------- */
 /* --------------- Hero ---------------- */
