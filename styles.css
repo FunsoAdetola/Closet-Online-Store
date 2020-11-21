@@ -155,7 +155,7 @@ body {
    */
   background: url("./images/fashion4.jpg");
    background-size: contain;
-  background-repeat: repeat-x;
+  background-repeat: repeat;
   background-position: 0 top, 100% top;
   display: flex;
   align-items: center;
