@@ -139,27 +139,34 @@ body {
 }
 .cart-items {
   position: relative;
-  top: -32px;
+  top: -29px;
   right: -14px;
   background: var(--primaryColor);
-  padding: 0 5px;
+  padding: 1px 5px;
   border-radius: 30%;
   color: var(--mainWhite);
+  text-align: center;
+  font-size: 10px;
+  width:11px;
+  height:12px;
 }
 /* --------------- End of Navbar ---------------- */
 /* --------------- Hero ---------------- */
 .hero {
-  width:100%;
+  min-width:100%;
   min-height: calc(100vh - 60px);
   /* background: url("https://image.freepik.com/free-photo/young-client-wearing-yellow-clothes-orange-background_23-2148674266.jpg");
    */
-  background: url("./images/bg-hero.jpg");
+  background: url("./images/bg.jpg");
    background-size: cover;
+   background-clip: border-box;
   background-repeat: no-repeat;
-  background-position: 0 top, 100% top;
+  background-position-x: center;
+  background-position-y: -50px;
   display: flex;
   align-items: center;
   justify-content: center;
+ 
 }
 .banner {
   text-align: center;
